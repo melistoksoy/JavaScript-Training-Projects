@@ -1,0 +1,86 @@
+#header {
+    background-color: #C8DBBE;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+#userList{
+    position: absolute;
+    margin-top: 280px;
+    width:600px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.heading {
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Shalimar';
+    font-size: 5rem;
+    font-weight: 700;
+
+}
+
+.userForm {
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 0;
+    border-top-style: none;
+
+}
+
+.userForm input {
+    margin: 0px;
+    padding-left: 5px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+
+}
+#form-select{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    top: 0;
+    border-radius: 5px;
+    right:-110px;
+    font-family: 'Montserrat';
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+#btn {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0;
+    font-family: 'Montserrat';
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #707c78;
+
+}
+.close{
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 10px 16px 10px 16px;
+
+}
+ul li.checked {
+    text-decoration: line-through;
+    color:#fff;
+    background: #888;
+}
